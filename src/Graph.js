@@ -1,7 +1,7 @@
 import React from "react";
 
 const Graph = ({ data }) => (
-  <div className="col-12 col-md-6 graph_box">
+  <div className="col-12 col-md-6 graph_box my-3">
     <iframe
       title="CO2"
       src={data}
